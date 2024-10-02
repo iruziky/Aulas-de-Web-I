@@ -1,0 +1,58 @@
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: #a7a7a7;
+}
+
+table {
+    width: 100%;
+}
+
+.cabecalho-tabela{
+    background-color: black;
+    color: white;
+}
+
+.cedula {
+    text-align: left;
+    border: 1px solid grey;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border: 1px solid grey;
+    margin-bottom: 2%;
+    display: block;
+    width: 100%;
+    height: 4%;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    line-height: 0px;
+    background-color: grey;
+}
